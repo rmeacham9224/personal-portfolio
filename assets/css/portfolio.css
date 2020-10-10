@@ -55,3 +55,25 @@ section {
     background-size: cover;
     background-position: center;
 }
+.phantom {
+    text-align: center;
+}
+.intro {
+    text-align: center;
+}
+.intro h2 {
+    font-size: 55px;
+    color: navy;
+    margin-bottom: 35px;
+    padding: 0 100px 20 px 100px;
+    border-bottom: 3px solid;
+    border-color: navy;
+    display: inline-block;
+}
+.intro p {
+    line-height: 1.7;
+    color: steelblue;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+}
