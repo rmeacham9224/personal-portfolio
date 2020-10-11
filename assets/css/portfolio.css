@@ -43,11 +43,20 @@ footer {
 footer h2 {
     display: inline;
     color: seashell;
-    font-size: 30px;
+    font-size: 15px;
     margin: 0;
 }
 section {
     padding: 60px;
+}
+.section-title {
+    font-size: 45px;
+    color: gray;
+    margin-bottom: 35px;
+    padding: 0 100px 20px 100px;
+    display: inline-block;
+    border-bottom: 3px solid steelblue;
+    text-align: center;
 }
 .hero {
     background-image: url("../images/hero-background.JPG");
@@ -76,4 +85,18 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+}
+.about {
+    text-align: center;
+} 
+.about div {
+    margin-bottom: 80px;
+}
+.about img {
+    width: 15%;
+    margin: 10px 0;
+}
+.about p {
+    color: steelblue;
+    font-size: 25px;
 }
