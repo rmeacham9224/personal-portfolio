@@ -10,12 +10,12 @@ body {
 }
 header {
     padding: 20px 35px;
-    background-color: steelblue;
+    background-color: dimgray;
 }
 header h1 {
     font-weight: bolder;
     font-size: 36px;
-    color: seashell;
+    color: steelblue;
     margin: 0;
     display: inline;
 }
@@ -51,12 +51,13 @@ section {
 }
 .section-title {
     font-size: 45px;
-    color: gray;
+    color:dimgray;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid steelblue;
     text-align: center;
+    text-decoration: none;
 }
 .hero {
     background-image: url("../images/hero-background.JPG");
@@ -82,7 +83,7 @@ section {
     text-align: center;
 }
 
-.about {
+.section {
     text-align: center;
 } 
 
@@ -92,6 +93,7 @@ section {
     background: steelblue;
     color: seashell;
     overflow: auto;
+    border-radius: 10px;
 }
 .ryan-ruby img {
     width: 20%;
@@ -110,4 +112,62 @@ section {
 }
 .text-right {
     text-align: right;
+}
+.work {
+    width: 1200px;
+    margin: 30px auto 30px auto;
+    background: dimgray;
+    color: seashell;
+    overflow: auto;
+    border-radius: 10px;
+}
+.work p {
+    font-size: 19px;
+    width: 80%;
+    line-height: 1.5;
+    padding: 30px;
+}
+.contact {
+    text-align: left;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: steelblue;
+    border-radius: 10px;
+    width: 1200px;
+}
+
+.contact h2 {
+    font-size: 35px;
+    color:seashell;
+    margin-bottom: 35px;
+    padding: 0 20px 0px 20px;
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    float: left;
+    border-right: 3px solid seashell;
+}
+.contact-links {
+    padding: 20px;
+    color: seashell;
+    display: inline-block;
+    margin: 3.5%;
+    border-radius: 15px;
+}
+
+.contact a {
+    font-size: 20px;
+    text-decoration: underline;
+    color: seashell;
+    display: inline-block;
+}
+.contact address {
+    padding: 20px;
+    color: seashell;
+    display: inline-block;
+    margin: 3.5%;
+    border-radius: 15px;
+}
+.resume {
+    
 }
