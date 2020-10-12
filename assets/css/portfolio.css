@@ -3,15 +3,28 @@
     padding: 0;
     background-origin: border-box;
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: seashell;
     color: steelblue;
 }
+
 header {
     padding: 20px 35px;
     background-color: dimgray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: flex;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
 }
+
 header h1 {
     font-weight: bolder;
     font-size: 36px;
@@ -19,68 +32,104 @@ header h1 {
     margin: 0;
     display: inline;
 }
+
 header a {
     color: seashell;
     text-decoration: none;
 }
+
 header nav {
     float: right;
     margin: 7px 0;
 }
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
 header nav ul li {
     display: inline;
 }
+
 header nav ul li a {
-    margin: 0 30px;
     font-weight: lighter;
     font-size: 22px;
+    padding: 10px 15px;
 }
+
 footer {
     background: slategray;
     width: 100%;
-    padding: 40px 35 px;
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
+
 footer h2 {
-    display: inline;
     color: seashell;
     font-size: 15px;
     margin: 0;
 }
+
 section {
     padding: 60px;
 }
-.section-title {
-    font-size: 45px;
-    color:dimgray;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
-    border-bottom: 3px solid steelblue;
-    text-align: center;
-    text-decoration: none;
-}
+
 .hero {
     background-image: url("../images/hero-background.JPG");
-    height: 900px;
     background-size: cover;
+    height: 600px;
     background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
 }
+
+.hero-phantom { 
+    color: white;
+    font-size: 24px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
+    line-height: 1.2;
+}
+
 .phantom {
     text-align: center;
 }
+
 .phantom h2 { 
     font-size: 50px;
     color: steelblue;
-    padding: 20px 100px 0 100px;
+    padding: 20px 100px 20px 100px;
     display: inline-block;
     text-align: center;
 }
+
 .phantom h3 {
     font-size: 30px;
     color: steelblue;
-    padding: 0 100px 20px 100px;
+    padding: 20px 100px 20px 100px;
     display: inline-block;
     text-align: center;
+}
+
+.section-title {
+    font-size: 45px;
+    color:dimgray;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    border-bottom: 3px solid;
+    text-align: center;
+    width: 50%;
+}
+.primary-border {
+    border-color: steelblue;
 }
 
 .section {
@@ -88,44 +137,93 @@ section {
 } 
 
 .ryan-ruby {
-    width: 1200px;
-    margin: 30px auto 30px auto;
-    background: steelblue;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.ryan-ruby2 {
+    margin: 20px;
+    background-color: steelblue;
     color: seashell;
-    overflow: auto;
-    border-radius: 10px;
+    flex: 1;
 }
-.ryan-ruby img {
-    width: 20%;
-    float: left;
-    padding: 30px;
-    display: inline-block;
-}.ryan-ruby p {
-    font-size: 19px;
-    width: 65%;
-    float: left;
+
+.ryan-ruby2 img {
+    width: 50%;
+    padding: 30px 100px 30px 100px;
+}
+
+.ryruby {
+    padding: 25px;
     line-height: 1.3;
-    padding: 30px;
 }
+
+.ryan-ruby2 p {
+    font-size: 17px;
+    padding: 20px;
+    text-align: center;
+}
+.about-me-head {
+    font-size: 25px;
+    color: seashell;
+    margin: 0 auto 35px auto;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 50%;
+
+}
+
 .text-left {
     text-align: left;
 }
+
 .text-right {
     text-align: right;
 }
+
 .work {
-    width: 1200px;
+    width: 800px;
     margin: 30px auto 30px auto;
+    padding: 30px;
     background: dimgray;
     color: seashell;
     overflow: auto;
     border-radius: 10px;
+    display: flex;
 }
+
+.work-p {
+    width: 100%;
+}
+.intro p {
+    line-height: 1.7;
+    color: slategray;
+    width: 80%;
+    font-size: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.work-title {
+    font-size: 45px;
+    color: steelblue;
+    border-right: 3px solid slategray;
+    padding-right: 20px;
+    margin: 0 auto 35px auto;
+    text-align: center;
+    width: 50%;
+    padding-top: 80px;
+
+}
+
 .work p {
     font-size: 19px;
-    width: 80%;
+    width: 90%;
     line-height: 1.5;
     padding: 30px;
+    text-align: center;
 }
 .contact {
     text-align: left;
@@ -133,8 +231,12 @@ section {
     align-items: flex-start;
     background-color: steelblue;
     border-radius: 10px;
-    width: 1200px;
+    width: 250px;
+    padding: 30px 30px;
+    display: flex;
 }
+
+
 
 .contact h2 {
     font-size: 35px;
@@ -147,19 +249,22 @@ section {
     float: left;
     border-right: 3px solid seashell;
 }
-.contact-links {
+.contact div {
     padding: 20px;
-    color: seashell;
+    color: steelblue;
     display: inline-block;
     margin: 3.5%;
     border-radius: 15px;
+    width: 100%;
+    padding: 0 30px;
 }
 
 .contact a {
     font-size: 20px;
     text-decoration: underline;
     color: seashell;
-    display: inline-block;
+    vertical-align: center;
+    padding: 20px;
 }
 .contact address {
     padding: 20px;
@@ -168,6 +273,134 @@ section {
     margin: 3.5%;
     border-radius: 15px;
 }
-.resume {
+.contact address a {
+    font-size: 20px;
+}
+
+
+
+.flex-row {
+    display: flex;
+}
+
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+   
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
     
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .hero-phantom {
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .section-title {
+        width: 80%;
+    }
+
+    .ryan-ruby2 {
+        flex: 0 70%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    section {
+        padding: 30px 15px;
+    }
+    
+    /*fix this */
+    .step h3 {
+        flex: 1 100%;
+        text-align: center;
+    }
+
+    .step-info {
+        flex: 2 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .step-img {
+        flex: 0 32%;
+        margin-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .step-text {
+        flex: 100%;
+    }
+
+    .service-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .service-grid-item.basic {
+        grid-column: 1;
+    }
+
+    .service-grid-item.both {
+        grid-column: 1 / -1;
+    }
+
+    .service-grid-item.cancel {
+        transform: none;
+        writing-mode:  unset;
+        grid-column: 1 / -1;
+        grid-row: -1;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    
+    .hero-form button {
+        width: 100%;
+    }
+
+    .section-title {
+        width: 95%;
+    }
+
+    .intro p {
+        width: 100%;
+    }
+
+    .trainer {
+        flex: 0 100%;
+    }
+
+    .contact-info {
+        text-align: center;
+    }
+
+    .contact-info > * {
+        flex: 0 100%;
+    }
+
+    .contact-form {
+        order: 3;
+    }
 }

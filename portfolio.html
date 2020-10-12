@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="./assets/css/portfolio.css" />
-        
         <title>Ryan Meacham</title>
     </head>
     <body>
@@ -35,76 +35,104 @@
 
         <!--hero/jumbotron-->
         <section class="hero">
-        </section>
-        
-        <!--phantom tollbooth quote section-->
-        <section class="phantom">
-            <h2>“So many things are possible just as long as you don't know they're impossible.” </h2>
-            <br />
-            <h3>-Norton Juster, the Phantom Tollbooth</h3>
+            <div class="hero-phantom">
+                <h2>“So many things are possible just as long as you don't know they're impossible.”</h2>
+                <p>
+                    - Norton Juster, the Phantom Tollbooth
+                </p>
+            </div>
         </section>
 
         <!--About Me Section-->
-        <section id="about-me" class="section">
-            <h2 class="section-title">About Me</h2>
+        <section id="about-me">
+            <div class="flex-row">
+                <h2 class="section-title primary-border">
+                    About Me
+                </h2>
+            </div>
             
             <!--professional photo-->
-            <article class="ryan-ruby text-left">
-                <img src="./assets/images/IMG_3203.JPG" alt="professional photo" />
-                <p>Hello, my name is Ryan Meacham! I am currently pursuing my PharmD/MHIIM through the University of Tennessee College of Pharmacy with plans to complete my education in 2023. I was born in Nashville and have recently come home to finish the final three years of the pharmacy curriculum. Following graduation, I plan on pursuing a residency with a focus in Oncology or Infectious Diseases, however this is subject to change as I explore more options within the field. I also have a strong desire to utilize available data to improve clinical outcomes which has led me to pursue my MHIIM as well as attend coding bootcamp through Vanderbilt University. I am hoping to apply the knowledge I gain through my dual degree program alongside the skills I am developing in coding bootcamp to best serve my future patients. </p>
-            </article>
+            <div class="ryan-ruby">
+                <article class="ryan-ruby2">
+                    <img src="./assets/images/IMG_3203.JPG" alt="professional photo" />
+                    <div class="ryruby">
+                        <h3 class="about-me-head">professional</h3>
+                        <p>
+                            Hello, my name is Ryan Meacham! I am currently pursuing my PharmD/MHIIM through the University of Tennessee College of Pharmacy with plans to complete my education in 2023. I was born in Nashville and have recently come home to finish the final three years of the pharmacy curriculum. Following graduation, I plan on pursuing a residency with a focus in Oncology or Infectious Diseases, however this is subject to change as I explore more options within the field. I also have a strong desire to utilize available data to improve clinical outcomes which has led me to pursue my MHIIM as well as attend coding bootcamp through Vanderbilt University. I am hoping to apply the knowledge I gain through my dual degree program alongside the skills I am developing in coding bootcamp to best serve my future patients. 
+                        </p>
+                    </div>
+                </article>
             
-            <!--Ruby-->
-            <article class="ryan-ruby text-right">
-                <p>In my off time, I enjoy playing golf, watching basketball and embrace any chance I have to listen to or find new music. Being from Nashville, I feel as though music is a huge part of me and you can often find me mercilessly dancing in the crowd at concerts. I have a strong tie to the Tennessee Titans and Vanderbilt sports, but I also tend to pull for Auburn University (my alma mater) as well as the University of Tennessee when they are not playing Vandy. I currently live with the love of my life, Ruby, who is truly a super mutt. People are my passion, so feel free to reach out to me if you have any questions or would just like to say hi!</p>
-                <img src="./assets/images/IMG_3045.JPG" alt="Ruby Girl acting bad" />           
-            </article>
-    </section>
+                <!--Ruby-->
+                <article class="ryan-ruby2">
+                    <img src="./assets/images/IMG_3045.JPG" alt="Ruby Girl acting bad" />           
+                    <div class="ryruby">
+                        <h3 class="about-me-head">Personal</h3>
+                        <p>
+                            In my off time, I enjoy playing golf, watching basketball and embrace any chance I have to listen to or find new music. Being from Nashville, I feel as though music is a huge part of me and you can often find me mercilessly dancing in the crowd at concerts. I have a strong tie to the Tennessee Titans and Vanderbilt sports, but I also tend to pull for Auburn University (my alma mater) as well as the University of Tennessee when they are not playing Vandy. I currently live with the love of my life, Ruby, who is truly a super mutt. People are my passion, so feel free to reach out to me if you have any questions or would just like to say hi!
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
 
         <!--Work Section-->
-        <section id="work" class="section">
-            <h2 class="section-title">Work</h2>
-                <div class="work">   
-                    <p>I have been an employee with Publix Pharmacy since 2017, where I began as a pharmacy technician and eventually reached intern status upon entering Pharmacy school. I enjoy community pharmacy but would like to explore the hospital setting upon graduation. In previous years, I have worked for Vanderbilt University Medical Center in breast cancer research as well as through Auburn University in a lab focused on metabolic pathways and energy utilization throughout the birth cycle. I would like to engage in research in the future as well as teach pharmacy courses within a PharmD program.</p>
-                </div>
-        
+        <section id="work" class="">
+            <div class="flex-row">
+                <h2 class="work-title primary-border">
+                    Work
+                </h2>
+                    <div class="flex-row">   
+                        <p>I have been an employee with Publix Pharmacy since 2017, where I began as a pharmacy technician and eventually reached intern status upon entering Pharmacy school. I enjoy community pharmacy but would like to explore the hospital setting upon graduation. In previous years, I have worked for Vanderbilt University Medical Center in breast cancer research as well as through Auburn University in a lab focused on metabolic pathways and energy utilization throughout the birth cycle. I would like to engage in research in the future as well as teach pharmacy courses within a PharmD program.</p>
+                    </div>
+            </div>
         </section>
 
         <!--Contact Me section-->
-        <section id="contact-me" class="contact">
-            <!--flexrow-->
-            <div class = "contact">
-                <h2>Contact Me</h2>
+        <section id="contact-me" class="section">
+            <div class="flex-row">
+                <h2 class="section-title primary-border">
+                    Contact Me
+                </h2>
             </div>    
+            <div class="flex-row">
             <!--address-->
-            <div class="contact-links"> <!--add flexrow-->
-                <address> 
-                    9224 Foxboro Drive <br />
-                    Brentwood, TN 37027<br />
-                    P: (615)509-6389 </br >
-                    E: <a href="mailto:Rmeacha2@uthsc.edu">Rmeacha2@uthsc.edu</a>
-                </address>
+            <div class="flex-row">    
+                <div class="contact"> <!--add flexrow-->
+                    <address> 
+                        9224 Foxboro Drive <br />
+                        Brentwood, TN 37027<br />
+                        P: (615)509-6389 </br >
+                        E: Rmeacha2@uthsc.edu
+                    </address>
+                </div>
             </div>
-            <!--linked in-->
-            <div class="contact-links">
-                <a href="https://www.linkedin.com/in/ryan-meacham-1a13761b6/">linked In</a>
+                <!--linked in-->
+            <div class="flex-row">
+                <div class="contact">
+                    <a href="https://www.linkedin.com/in/ryan-meacham-1a13761b6/">linked In</a>
+                </div>
             </div>
-            <!--github-->
-            <div class="contact-links">
-                <a href="https://github.com/rmeacham9224">Github</a>
+                <!--github-->
+            <div class="flex-row">
+                <div class="contact">
+                    <a href="https://github.com/rmeacham9224">Github</a>
+                </div>
             </div>
-            <!--spotify-->
-            <div class="contact-links">
-              <a href="https://open.spotify.com/user/rmeacham?si=zRdY5cTNQTy0qxZ9IMe7_A">Spotify</a>  
+                <!--spotify-->
+            <div class="flex-row">
+                <div class="contact">
+                    <a href="https://open.spotify.com/user/rmeacham?si=zRdY5cTNQTy0qxZ9IMe7_A">Spotify</a>  
+                </div>
             </div>
-        
+            </div>
         </section>
 
         <!--Resume Section-->
-        <section id="resume" class="resume">
-            <h2 class="contact">Resume</h2>
+        <section id="resume" class="section">
+            <h2 class="">Resume</h2>
             <div>
-                <a href="/Users/ryanmeacham/Desktop/projects/portfolio/assets/resume 6-2020 copy.docx">Download My Resume</a>
+                <a href="./assets/resume 6-2020 copy.docx">Download My Resume</a>
             </div>
         </section>
 
